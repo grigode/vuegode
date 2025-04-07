@@ -1,0 +1,39 @@
+{
+  "name": "vuegode",
+  "version": "0.0.0",
+  "description": "Vuegode – Build smarter with components, composables & utilities ⚡",
+  "type": "module",
+  "private": false,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.2.0",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vue-tsc": "^2.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grigode/vuegode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grigode/vuegode/issues"
+  },
+  "homepage": "https://github.com/grigode/vuegode#readme",
+  "keywords": [
+    "vue",
+    "vuegode",
+    "components",
+    "composables",
+    "utilities",
+    "ui"
+  ],
+  "author": "Angel Chávez",
+  "license": "MIT"
+}
