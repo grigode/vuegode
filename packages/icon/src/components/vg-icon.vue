@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import "../icons";
 import { defineProps, withDefaults } from "vue";
 import { Icon, type IconProps } from "@iconify/vue";
 
