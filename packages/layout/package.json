@@ -1,0 +1,48 @@
+{
+  "name": "@vuegode/layout",
+  "version": "0.0.0",
+  "description": "Vuegode Layout – Flexible and extensible layout components for Vue 3: headers, sidebars, banners, footers, and more.",
+  "type": "module",
+  "private": true,
+  "main": "./dist/layout.umd.js",
+  "module": "./dist/layout.es.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/layout.es.js",
+      "require": "./dist/layout.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build && vue-tsc",
+    "build:watch": "vue-tsc --watch && vite build --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "layout",
+    "vue-layout",
+    "ui-layout",
+    "responsive-layout",
+    "header",
+    "footer",
+    "sidebar",
+    "banner",
+    "toast",
+    "main-layout",
+    "vuegode",
+    "vue-components",
+    "ui",
+    "framework",
+    "spa",
+    "design-system"
+  ],
+  "author": "Angel Chávez",
+  "license": "MIT"
+}
