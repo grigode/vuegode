@@ -2,9 +2,9 @@
 import { defineProps, withDefaults } from "vue";
 import { Icon, type IconProps } from "@iconify/vue";
 
-const ssr = typeof window === "undefined";
-
-const props = withDefaults(defineProps<IconProps>(), { ssr });
+const props = withDefaults(defineProps<IconProps>(), {
+  ssr: typeof window === "undefined",
+});
 </script>
 
 <template>
