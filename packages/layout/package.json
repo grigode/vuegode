@@ -15,7 +15,8 @@
   },
   "scripts": {
     "build": "vite build && vue-tsc",
-    "build:watch": "vue-tsc --watch && vite build --watch"
+    "build-types:watch": "vue-tsc --watch",
+    "build-vite:watch": "vite build --watch"
   },
   "files": [
     "dist"

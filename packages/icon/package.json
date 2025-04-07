@@ -1,0 +1,44 @@
+{
+  "name": "@vuegode/icon",
+  "version": "0.0.0",
+  "description": "Vuegode Icon – Icon components and utilities powered by Iconify for Vue 3 applications.",
+  "type": "module",
+  "private": true,
+  "main": "./dist/icon.umd.js",
+  "module": "./dist/icon.es.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/icon.es.js",
+      "require": "./dist/icon.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build && vue-tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@iconify/vue": "^4.3.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vuegode",
+    "icons",
+    "iconify",
+    "vue-icon",
+    "vue-iconify",
+    "icon-library",
+    "icon-component",
+    "svg-icons",
+    "icon-system",
+    "icon-pack"
+  ],
+  "author": "Angel Chávez",
+  "license": "MIT"
+}
