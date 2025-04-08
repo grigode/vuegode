@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Vuegode Icon – Icon components and utilities powered by Iconify for Vue 3 applications.",
   "type": "module",
-  "private": true,
+  "private": false,
   "main": "./dist/icon.umd.js",
   "module": "./dist/icon.es.js",
   "exports": {
