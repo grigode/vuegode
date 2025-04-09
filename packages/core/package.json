@@ -1,0 +1,43 @@
+{
+  "name": "@vuegode/core",
+  "version": "0.0.0",
+  "description": "Vuegode Core – Core utilities, composables, styles, and configuration presets for building Vue 3 applications efficiently.",
+  "type": "module",
+  "private": false,
+  "main": "./dist/core.umd.js",
+  "module": "./dist/core.es.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/core.es.js",
+      "require": "./dist/core.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build && tsc --emitDeclarationOnly --declaration --declarationDir dist --project tsconfig.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vuegode",
+    "composables",
+    "utilities",
+    "core",
+    "core-library",
+    "vue-core",
+    "shared",
+    "vue-composables",
+    "tailwind",
+    "config",
+    "vue-helpers",
+    "ui-core"
+  ],
+  "author": "Angel Chávez",
+  "license": "MIT"
+}
